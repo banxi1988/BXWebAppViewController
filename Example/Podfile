@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BXWebAppViewController_Example', :exclusive => true do
+  pod "BXWebAppViewController", :path => "../"
+end
+
+target 'BXWebAppViewController_Tests', :exclusive => true do
+  pod "BXWebAppViewController", :path => "../"
+
+  
+end
