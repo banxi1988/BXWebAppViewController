@@ -1,0 +1,6 @@
+framework module Pods_BXWebAppViewController_Tests {
+  umbrella header "Pods-BXWebAppViewController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module BXWebAppViewController {
+  umbrella header "BXWebAppViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
