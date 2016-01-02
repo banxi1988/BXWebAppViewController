@@ -9,9 +9,10 @@ public func createWebAppViewController(URL:NSURL) -> BXWebAppViewController{
   return vc
 }
 
-public func createWebAppViewController(HTMLString:String) -> BXWebAppViewController{
+public func createWebAppViewController(HTMLString:String,baseURL:NSURL?=nil) -> BXWebAppViewController{
   let vc  =  BXWKWebViewViewController()
   vc.webHTMLString = HTMLString
+  vc.baseURL = baseURL
   return vc
 }
 
@@ -35,8 +36,9 @@ public class BXWebAppViewController:UIViewController{
      return  BXNetworkErrorTipView()
   }()
  
-  var webURL:NSURL?
-  var webHTMLString:String?
+  public var webURL:NSURL?
+  public var webHTMLString:String?
+  public var baseURL:NSURL?
   
   // MARK: WebApp Interface flag
   var shouldReload  = false //
@@ -95,7 +97,7 @@ public class BXWebAppViewController:UIViewController{
     if let URL = webURL{
       loadURL(URL)
     }else if let html = webHTMLString{
-      loadHTMLString(html)
+      loadHTMLString(html,baseURL: baseURL)
     }
   }
   
