@@ -62,7 +62,7 @@ public class BXWebAppViewController:UIViewController{
       childView.translatesAutoresizingMaskIntoConstraints = false
     }
     
-    progressView.pa_below(topLayoutGuide, offset: 0)
+    progressView.pa_below(topLayoutGuide, offset: 0).install()
     progressView.pac_horizontal()
     activityIndicator.pac_center(0)
   }
@@ -75,8 +75,8 @@ public class BXWebAppViewController:UIViewController{
     view.sendSubviewToBack(webview)
     webview.translatesAutoresizingMaskIntoConstraints = false
     
-    webview.pa_below(topLayoutGuide)
-    webview.pa_above(bottomLayoutGuide)
+    webview.pa_below(topLayoutGuide).install()
+    webview.pa_above(bottomLayoutGuide).install()
     webview.pac_horizontal()
   }
   
@@ -141,7 +141,7 @@ public class BXWebAppViewController:UIViewController{
     errorView.translatesAutoresizingMaskIntoConstraints = false
     view.addSubview(errorView)
     errorView.pac_edge(0)
-    errorView.actionButton.addTarget(self, action: "reload", forControlEvents: .TouchUpInside)
+    errorView.actionButton.addTarget(self, action: #selector(reload), forControlEvents: .TouchUpInside)
   }
   
 }

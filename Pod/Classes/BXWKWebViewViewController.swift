@@ -44,11 +44,11 @@ struct KVOKeyPaths  {
   }
 
   lazy var backButtonItem : UIBarButtonItem = {
-    return UIBarButtonItem(title:"返回",style:.Plain, target: self, action: "back:")
+    return UIBarButtonItem(title:"返回",style:.Plain, target: self, action: #selector(back(_:)))
   }()
   
   lazy var closeButtonItem : UIBarButtonItem = {
-    return UIBarButtonItem(title:"关闭",style:.Plain, target: self, action: "close:")
+    return UIBarButtonItem(title:"关闭",style:.Plain, target: self, action: #selector(close(_:)))
   }()
   
   public func userContentController(userContentController: WKUserContentController, didReceiveScriptMessage message: WKScriptMessage) {
@@ -88,9 +88,6 @@ struct KVOKeyPaths  {
   }
   
   deinit{
-    for keyPath in KVOKeyPaths.allConsts{
-//      webView.removeObserver(self, forKeyPath: keyPath, context: &KVOKeyPaths.kvoContext)
-    }
     NSNotificationCenter.defaultCenter().removeObserver(self)
   }
   
