@@ -25,6 +25,7 @@ public class BXWebAppViewController:UIViewController{
     progressView.progressTintColor = self.view.tintColor
     return progressView
   }()
+  
   public lazy var activityIndicator: UIActivityIndicatorView = {
     let indicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.WhiteLarge)
     indicator.color = self.view.tintColor
@@ -41,10 +42,10 @@ public class BXWebAppViewController:UIViewController{
   public var baseURL:NSURL?
   
   // MARK: WebApp Interface flag
-  var shouldReload  = false //
+  public var shouldReload  = false //
   var clear_stack = false //
-  var isWebAppStackRoot = false
-  var isTabRoot = false
+  public var isWebAppStackRoot = false
+  public var isTabRoot = false
   lazy var httpReachablility = try? Reachability.reachabilityForInternetConnection()
   
   
@@ -60,9 +61,10 @@ public class BXWebAppViewController:UIViewController{
     for childView in [progressView,activityIndicator]{
       childView.translatesAutoresizingMaskIntoConstraints = false
     }
-    pinTopLayoutGuide(progressView)
-    progressView.pinHorizontal(0)
-    activityIndicator.pinCenter()
+    
+    progressView.pa_below(topLayoutGuide, offset: 0)
+    progressView.pac_horizontal()
+    activityIndicator.pac_center(0)
   }
   
   func installWebView(webview:UIView){
@@ -72,9 +74,10 @@ public class BXWebAppViewController:UIViewController{
     view.addSubview(webview)
     view.sendSubviewToBack(webview)
     webview.translatesAutoresizingMaskIntoConstraints = false
-    pinTopLayoutGuide(webview)
-    pinBottomLayoutGuide(webview)
-    webview.pinHorizontal(0)
+    
+    webview.pa_below(topLayoutGuide)
+    webview.pa_above(bottomLayoutGuide)
+    webview.pac_horizontal()
   }
   
   func closeSelf(){
@@ -137,7 +140,7 @@ public class BXWebAppViewController:UIViewController{
     let errorView = errorTipView
     errorView.translatesAutoresizingMaskIntoConstraints = false
     view.addSubview(errorView)
-    errorView.pinEdge(UIEdgeInsetsZero)
+    errorView.pac_edge(0)
     errorView.actionButton.addTarget(self, action: "reload", forControlEvents: .TouchUpInside)
   }
   

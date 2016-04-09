@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "BXWebAppViewController"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of BXWebAppViewController."
+  s.version          = "0.1.1"
+  s.summary          = "BXWebAppViewController make WKWebView Easy to Use to Application"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,25 +17,26 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+BXWebAppViewController make WKWebView Easy to Use to Application,easy to integrate with custom js,error view,loading view
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BXWebAppViewController"
+  s.homepage         = "https://github.com/banxi1988/BXWebAppViewController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "banxi1988" => "banxi1988@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BXWebAppViewController.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/banxi1988/BXWebAppViewController.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/banxi1988'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'BXWebAppViewController' => ['Pod/Assets/*.png']
-  }
+  #s.resource_bundles = {
+  #  'BXWebAppViewController' => ['Pod/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'PinAutoLayout'
+  s.dependency 'PinAuto'
   s.dependency 'ReachabilitySwift'
 end

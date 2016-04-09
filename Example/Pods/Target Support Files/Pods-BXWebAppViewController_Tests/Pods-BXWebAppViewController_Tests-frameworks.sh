@@ -84,12 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-BXWebAppViewController_Tests/BXWebAppViewController.framework"
-  install_framework "Pods-BXWebAppViewController_Tests/PinAutoLayout.framework"
-  install_framework "Pods-BXWebAppViewController_Tests/ReachabilitySwift.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/BXWebAppViewController/BXWebAppViewController.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/PinAuto/PinAuto.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/ReachabilitySwift/ReachabilitySwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-BXWebAppViewController_Tests/BXWebAppViewController.framework"
-  install_framework "Pods-BXWebAppViewController_Tests/PinAutoLayout.framework"
-  install_framework "Pods-BXWebAppViewController_Tests/ReachabilitySwift.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/BXWebAppViewController/BXWebAppViewController.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/PinAuto/PinAuto.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/ReachabilitySwift/ReachabilitySwift.framework"
 fi

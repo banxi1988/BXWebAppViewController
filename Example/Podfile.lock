@@ -1,9 +1,9 @@
 PODS:
-  - BXWebAppViewController (0.1.0):
-    - PinAutoLayout
+  - BXWebAppViewController (0.1.1):
+    - PinAuto
     - ReachabilitySwift
-  - PinAutoLayout (1.0.1)
-  - ReachabilitySwift (2.3)
+  - PinAuto (1.4)
+  - ReachabilitySwift (2.3.3)
 
 DEPENDENCIES:
   - BXWebAppViewController (from `../`)
@@ -13,8 +13,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BXWebAppViewController: 0d79716ca11b37a90bba5c85691eef30ebee382a
-  PinAutoLayout: ab4a1a9cdd9f2b6b1ea8371c8384be1164b0865e
-  ReachabilitySwift: 2ac9df18a443901f06caae38a9f5431219a4c36a
+  BXWebAppViewController: a4c1c995482cb8fa02e00d6ff5fd719ac4a07ae9
+  PinAuto: 45f7dbc894aa5bfa7c9c90f07856b8dff3046e6c
+  ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 5608ea3939cc977fac89044d5fe3e43013aadc41
+
+COCOAPODS: 1.0.0.beta.4

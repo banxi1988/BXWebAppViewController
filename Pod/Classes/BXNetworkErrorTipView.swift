@@ -11,7 +11,7 @@ import UIKit
 
 // Build for target uimodel
 import UIKit
-import PinAutoLayout
+import PinAuto
 
 // -BXNetworkErrorTipView
 // tip[x,y](f16,cg):; action[x,h36]:b
@@ -56,12 +56,11 @@ public class BXNetworkErrorTipView : UIView{
   }
   
   func installConstaints(){
-    tipLabel.pinCenterY()
-    tipLabel.pinCenterX()
+    tipLabel.pac_center(0)
     
-    actionButton.pinCenterX()
-    actionButton.pinHeight(36)
-    actionButton.pinBelowSibling(tipLabel, margin: 8)
+    actionButton.pa_centerX.install()
+    actionButton.pa_height.eq(36).install()
+    actionButton.pa_below(tipLabel, offset: 8).install()
     
   }
   

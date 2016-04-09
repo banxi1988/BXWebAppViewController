@@ -1,29 +1,24 @@
 {
   "name": "BXWebAppViewController",
-  "version": "0.1.0",
-  "summary": "A short description of BXWebAppViewController.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/BXWebAppViewController",
+  "version": "0.1.1",
+  "summary": "BXWebAppViewController make WKWebView Easy to Use to Application",
+  "description": "BXWebAppViewController make WKWebView Easy to Use to Application,easy to integrate with custom js,error view,loading view",
+  "homepage": "https://github.com/banxi1988/BXWebAppViewController",
   "license": "MIT",
   "authors": {
     "banxi1988": "banxi1988@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/BXWebAppViewController.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/banxi1988/BXWebAppViewController.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "BXWebAppViewController": [
-      "Pod/Assets/*.png"
-    ]
-  },
   "dependencies": {
-    "PinAutoLayout": [
+    "PinAuto": [
 
     ],
     "ReachabilitySwift": [

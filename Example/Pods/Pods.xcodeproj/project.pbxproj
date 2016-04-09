@@ -7,266 +7,236 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09EFA27C484BA2C4F2B7817B60051E9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344B9ABAA2AAFE62875EB3D116D404B7 /* Foundation.framework */; };
-		171D3F03F263EE5F2DD225E2AD904C7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344B9ABAA2AAFE62875EB3D116D404B7 /* Foundation.framework */; };
-		3D238B91E3766EB322C5E15310F950B7 /* PinAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A8219E904257AF4F9BAB0312BE6C3C0 /* PinAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E45FC7F1C0EF58D0000575C /* BXNetworkErrorTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45FC7E1C0EF58D0000575C /* BXNetworkErrorTipView.swift */; };
-		3E99981C1C16D54E00679D78 /* BXWKWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99981B1C16D54E00679D78 /* BXWKWebViewViewController.swift */; };
-		435CA44C4182FF1FAADF05B14C3913C7 /* ReachabilitySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99AB52FB7B68D2DE050C335B8AA877FD /* ReachabilitySwift.framework */; };
-		45B34F6863A664DBBF8789F2546B048C /* Pods-BXWebAppViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD0BC02DAEE9352E877B0EF9E18836B /* Pods-BXWebAppViewController_Example-dummy.m */; };
-		5D80387B869BD5387C0A8D125A550A68 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99B9DD21DB8339C1E2D9894A42B9D8E /* Reachability.swift */; };
-		6C77B7F6E95F72DC7F12BDC48ADA9757 /* PinAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB31AF513EF96B27349917C304E70F0F /* PinAutoLayout.framework */; };
-		75742C87D073B8D2DDD73C733FEBDC85 /* PinAutoLayout.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD676ACE4946ECCAA42A21C4F31609DF /* PinAutoLayout.bundle */; };
-		776F18A59F2E865D646ED959A336D7B6 /* BXWebAppViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE0C36211793BEB046AB23A0298F0E7 /* BXWebAppViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84FBCB4ACB46E75ED47885EB10B0E183 /* UIViewController+PinAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16A8EE4FD2DC52E5E3F56A08616BF8 /* UIViewController+PinAutoLayout.swift */; };
-		852FA5AF85049C3C3DD39E7B3BCBCD83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344B9ABAA2AAFE62875EB3D116D404B7 /* Foundation.framework */; };
-		896F64853BBA6BFCDA14A470485112DB /* Pods-BXWebAppViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D216CA5041A65D00C3E9D7D79365C88 /* Pods-BXWebAppViewController_Tests-dummy.m */; };
-		8F2090F35E40CF6F8883E8602354A40E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E468AF56008589AA1FC186398CF07751 /* SystemConfiguration.framework */; };
-		8F92C09789F86471D64F549C961E5D53 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA2D4FC736FD95DB77466FB587E7E14 /* ReachabilitySwift-dummy.m */; };
-		AF481F2D88BEBD66C95974DA74A75B3C /* BXWebAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836253D9A7B0E658A4BCE6DC8B7D1DEC /* BXWebAppViewController.swift */; };
-		B53FB50E8CD3F270741C9AA458A5749F /* Pods-BXWebAppViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9857426AACDA486A294A8B45624FB751 /* Pods-BXWebAppViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC2A12212D1C2B08D46DB25F855B96F6 /* PinAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A28815644AE70FF38330573357695 /* PinAutoLayout-dummy.m */; };
-		D624A43CAE44F38BE41A057D9509F341 /* BXWebAppViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44B134B7CECB9B1623E27A43164D9E37 /* BXWebAppViewController.bundle */; };
-		DF83318FE3692AC99B15EFCBBA5CA02C /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F1D9271795172359F33FE33934C7692 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1910338BEB84EE026CA0C8A7D87A461 /* Pods-BXWebAppViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EBEE5200486629E3D647231012D0270 /* Pods-BXWebAppViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E37281D55792803EF66CEE6EC6E50E24 /* UIView+PinAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281137104CB83F29B5E3956F26AAA00E /* UIView+PinAutoLayout.swift */; };
-		E778C21F4431F9B38C16C81C7309E3C4 /* BXWebAppViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E622C22F0770955604EDAAAD3CD680AB /* BXWebAppViewController-dummy.m */; };
-		E9A714498C1890D8994CCCED2A1E8078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344B9ABAA2AAFE62875EB3D116D404B7 /* Foundation.framework */; };
-		F0B90802122D345FFBD7E36117C748FC /* UIView+LinearAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63FA031307805BF3F7C7E680285821A /* UIView+LinearAutoLayout.swift */; };
-		FD2C0BDB6D16BDBB393C2C895C852A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344B9ABAA2AAFE62875EB3D116D404B7 /* Foundation.framework */; };
+		04A5AAF25163BBB50EFA06019573DFD2 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F03D7D520DDF1CE3760FFC316A60B307 /* ReachabilitySwift-dummy.m */; };
+		0C56E635F8BBC21711BA9C0AEA381D88 /* BXWKWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477CA5B8E394378BD6D9A1493AF7C86 /* BXWKWebViewViewController.swift */; };
+		0F4B810AB64EFB44A67267D61E349D95 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171BD8918AC9A2AB0BA784E436856A51 /* UIView+Helper.swift */; };
+		0FA1EF3A149371862D2F7AB3B02B527C /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E4723350954B39D00A0BA06938857 /* UIViewControllerExtensions.swift */; };
+		12C79A2648D79B8EA5FA19E3D977568C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FE50A2F7C171EBFC06B67CE77D1873 /* Foundation.framework */; };
+		15FE8AE9AACD1E0868205F1147E86AA3 /* BXWebAppViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE0C36211793BEB046AB23A0298F0E7 /* BXWebAppViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22D47C6CE78A5C79BE9485E080205AEE /* PinAuto.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBBCC1A1AF949688F2F04D574DE41BE1 /* PinAuto.bundle */; };
+		3E48D580A562B1007C86D88173269A75 /* BXWebAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72E112E4BFA43A99694850BD4FC5E49 /* BXWebAppViewController.swift */; };
+		4307EEB055BFF20AA35850DC98B3B686 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FE50A2F7C171EBFC06B67CE77D1873 /* Foundation.framework */; };
+		4FEFF494EC5CD48FE5627668F9EA0915 /* PinAuto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4261F41EF2DCBC7BE4DD507E3DF58DF7 /* PinAuto-dummy.m */; };
+		638EA6B6AB2B5279C5065A75777D01BD /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2F7FE64C6FDCAC21CB57BE13FE64A /* Reachability.swift */; };
+		648037CCF5281E6406AC6E04D2A4253F /* ReachabilitySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2DBDB14E37ABE7CE175E3504651A20 /* ReachabilitySwift.framework */; };
+		66D8F81A322FE8C138AB57D8CE198060 /* Pods-BXWebAppViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD0BC02DAEE9352E877B0EF9E18836B /* Pods-BXWebAppViewController_Example-dummy.m */; };
+		6B5CAC472AA7549EAD86E6E8461C8536 /* Pods-BXWebAppViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EBEE5200486629E3D647231012D0270 /* Pods-BXWebAppViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73703254EEDDD698CCE3E35A5A661395 /* BXNetworkErrorTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B65027E562772D29862EB6620D1B05C /* BXNetworkErrorTipView.swift */; };
+		8AD85B38520CBE39E726A457686BB82B /* UIView+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A14428CE8559ADFF4591E15B85F980 /* UIView+Convenience.swift */; };
+		9A51E51487EFB3B4AE4515356319EFBA /* PinAuto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81D69AB9A7432C767AB610D0A589247 /* PinAuto.framework */; };
+		A5A1B6A92A116FAD5132D9A87F54433F /* Pods-BXWebAppViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9857426AACDA486A294A8B45624FB751 /* Pods-BXWebAppViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB06E2F35C2F680C7A8FBB516C3D1626 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3388BC39D3C630AF6ACE0CECD4FD1EC7 /* SystemConfiguration.framework */; };
+		B07BE12FAAF76E3E0EE4C79FF933C9F2 /* BXWebAppViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E622C22F0770955604EDAAAD3CD680AB /* BXWebAppViewController-dummy.m */; };
+		B3480E0DAE67537171E3947B3C216F44 /* UIView+PinAuto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFFA361FD50347A0B16FF0A8048F1A2 /* UIView+PinAuto.swift */; };
+		B842EF501E16D5924E0BF5AE1420AFEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FE50A2F7C171EBFC06B67CE77D1873 /* Foundation.framework */; };
+		CC6874792ED17671C5578720B7D15E01 /* PinAuto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8AF15A1BA95A32E7FD7BFE5618528F /* PinAuto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3386F3C2BC5F6AC5D10DE6EEB3DFAAF /* Pods-BXWebAppViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D216CA5041A65D00C3E9D7D79365C88 /* Pods-BXWebAppViewController_Tests-dummy.m */; };
+		F25127539E73F042043F273A651D9069 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C3BD8AC3AA64804092097724047F46 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F419EC54E82394A36F7FFD404B0459F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FE50A2F7C171EBFC06B67CE77D1873 /* Foundation.framework */; };
+		FEDD58C9E9C4473B31B4F584136984BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FE50A2F7C171EBFC06B67CE77D1873 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		262F1CE64D65B4E4D206701130B2DD9A /* PBXContainerItemProxy */ = {
+		3E9CC5BE3058F3A124882F8784D6F9B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A4F119102BACBFB91C9AB9286DC96098;
-			remoteInfo = PinAutoLayout;
-		};
-		2C458671ACB11C52F8DBA55C08D4B490 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4F119102BACBFB91C9AB9286DC96098;
-			remoteInfo = PinAutoLayout;
-		};
-		3D4564C7BDA7F10052B9D256C4AEB193 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 288907D0BEC8C0374FB7FAF6AFC9C1F3;
+			remoteGlobalIDString = A9B1B57F7A07C638C859BEDFEDC829B4;
 			remoteInfo = ReachabilitySwift;
 		};
-		523E48F8C16659E13532AC7DFB53DE12 /* PBXContainerItemProxy */ = {
+		5B5F91B365F6CE92C96D2F60A96A3BD5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D5885343EDCC2E62038C1C7A6AE31A2;
-			remoteInfo = "BXWebAppViewController-BXWebAppViewController";
-		};
-		766FBB28BC4ECE3FF3ADB5278B884493 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 288907D0BEC8C0374FB7FAF6AFC9C1F3;
+			remoteGlobalIDString = A9B1B57F7A07C638C859BEDFEDC829B4;
 			remoteInfo = ReachabilitySwift;
 		};
-		8D4BA47DF7FAFE94800FCDE0134E1C62 /* PBXContainerItemProxy */ = {
+		6E4DE82C7FD215E4E516A9E4535EDC4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A4F119102BACBFB91C9AB9286DC96098;
-			remoteInfo = PinAutoLayout;
-		};
-		BAD9D3F230A5B11F3105C6BAC28CD8D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E790F9C328F866974BEF1B39ED26DC76;
-			remoteInfo = "PinAutoLayout-PinAutoLayout";
-		};
-		C823023A9C6436AD10BD527EC4190A02 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E400A2D2ECAFF354A31F44BD6A4F6C4D;
+			remoteGlobalIDString = E484317D1E8780B8DD3815AD34F3A2A0;
 			remoteInfo = BXWebAppViewController;
 		};
-		D4603B7E99E83312E9451906A6E1BF04 /* PBXContainerItemProxy */ = {
+		786A1F3DFD223784BD1BDC34D805F48F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E400A2D2ECAFF354A31F44BD6A4F6C4D;
-			remoteInfo = BXWebAppViewController;
+			remoteGlobalIDString = E997BA224CED050C1913E07FFC8C9CD4;
+			remoteInfo = "PinAuto-PinAuto";
 		};
-		EFE74E0BF33B921B33DCEC747E3AADE6 /* PBXContainerItemProxy */ = {
+		ACA23398263EC34707077886CD8AB036 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 288907D0BEC8C0374FB7FAF6AFC9C1F3;
+			remoteGlobalIDString = C21D6DE4FCB1A5728E180FF7942DF6BC;
+			remoteInfo = PinAuto;
+		};
+		B0DE01B39E5CFEEE8DC921E4E85AB38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21D6DE4FCB1A5728E180FF7942DF6BC;
+			remoteInfo = PinAuto;
+		};
+		BD7614200610C9490B4E06CE9A02D77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B1B57F7A07C638C859BEDFEDC829B4;
 			remoteInfo = ReachabilitySwift;
+		};
+		F2EBDCE862A09E647B670DC3E0059B69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21D6DE4FCB1A5728E180FF7942DF6BC;
+			remoteInfo = PinAuto;
+		};
+		F42D5E93A66D806F706537CC4794569B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E484317D1E8780B8DD3815AD34F3A2A0;
+			remoteInfo = BXWebAppViewController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0006EEF732373FCEC6F66EEBD3F262E5 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		039C3FAEDCE0AB65BA14386669A81E3C /* PinAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		108D75CF564FB2B0C9F736171F61B417 /* BXWebAppViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BXWebAppViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1093842B13FB8334E8A1833AB858B900 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BB1DA8873F151C0CB1CC3B0E6331DA /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		171BD8918AC9A2AB0BA784E436856A51 /* UIView+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Helper.swift"; path = "Pod/Classes/UIView+Helper.swift"; sourceTree = "<group>"; };
+		1B8AF15A1BA95A32E7FD7BFE5618528F /* PinAuto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinAuto-umbrella.h"; sourceTree = "<group>"; };
 		1E33A199ED898E79E3B74948710EDF1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E941D2F6006CCCE8D75B83681CA109E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EBEE5200486629E3D647231012D0270 /* Pods-BXWebAppViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BXWebAppViewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		24AD415377FDF9670513D245D167AE1A /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
-		281137104CB83F29B5E3956F26AAA00E /* UIView+PinAutoLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+PinAutoLayout.swift"; path = "Pod/Classes/UIView+PinAutoLayout.swift"; sourceTree = "<group>"; };
-		2F1D9271795172359F33FE33934C7692 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
 		313C910F052E00BA5BB845B2CC7D17D7 /* Pods-BXWebAppViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXWebAppViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		336F2D1ECC4D6F6A6D461387A65AE5FB /* Pods-BXWebAppViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BXWebAppViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		344B9ABAA2AAFE62875EB3D116D404B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3E45FC7E1C0EF58D0000575C /* BXNetworkErrorTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXNetworkErrorTipView.swift; sourceTree = "<group>"; };
-		3E99981B1C16D54E00679D78 /* BXWKWebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXWKWebViewViewController.swift; sourceTree = "<group>"; };
+		3388BC39D3C630AF6ACE0CECD4FD1EC7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		4223104A8F6FE50BA82ACF1B07F819C2 /* Pods-BXWebAppViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BXWebAppViewController_Tests.modulemap"; sourceTree = "<group>"; };
-		44B134B7CECB9B1623E27A43164D9E37 /* BXWebAppViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BXWebAppViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4261F41EF2DCBC7BE4DD507E3DF58DF7 /* PinAuto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinAuto-dummy.m"; sourceTree = "<group>"; };
 		4518C0D2E14B29C272743F7A28C628A2 /* Pods-BXWebAppViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BXWebAppViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4F4B08C84676084325D08BC062B56119 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		47C3BD8AC3AA64804092097724047F46 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
 		5321494F90899E59D42E8934B7CCE711 /* Pods-BXWebAppViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BXWebAppViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		569FB7CA0B1465089AE88F4944646E41 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		61FE50A2F7C171EBFC06B67CE77D1873 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D216CA5041A65D00C3E9D7D79365C88 /* Pods-BXWebAppViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BXWebAppViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		75BD6ABF33FE04D259172466DF3054EE /* ResourceBundle-PinAuto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PinAuto-Info.plist"; sourceTree = "<group>"; };
 		765C9C08E72027DBCE5E7431CA7B463C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A8219E904257AF4F9BAB0312BE6C3C0 /* PinAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinAutoLayout-umbrella.h"; sourceTree = "<group>"; };
-		836253D9A7B0E658A4BCE6DC8B7D1DEC /* BXWebAppViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BXWebAppViewController.swift; sourceTree = "<group>"; };
+		7B65027E562772D29862EB6620D1B05C /* BXNetworkErrorTipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BXNetworkErrorTipView.swift; sourceTree = "<group>"; };
+		8477CA5B8E394378BD6D9A1493AF7C86 /* BXWKWebViewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BXWKWebViewViewController.swift; sourceTree = "<group>"; };
+		8500FCDDB01EC5C227247AB4B8D8AA5D /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
 		86248DA26763907BAE74320B671320E3 /* Pods-BXWebAppViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXWebAppViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		86F5D4AAC7B7B3A6CA659733B71972B5 /* PinAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PinAutoLayout.modulemap; sourceTree = "<group>"; };
-		8A0A28815644AE70FF38330573357695 /* PinAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinAutoLayout-dummy.m"; sourceTree = "<group>"; };
-		8F6409F724F2D88B818602DC7D009752 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		8CCA0C275A62261E7BE36D95D47A705C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFFA361FD50347A0B16FF0A8048F1A2 /* UIView+PinAuto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+PinAuto.swift"; path = "Pod/Classes/UIView+PinAuto.swift"; sourceTree = "<group>"; };
+		902FD475ADF514438CB0D55FAE6BFBF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A14428CE8559ADFF4591E15B85F980 /* UIView+Convenience.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Convenience.swift"; path = "Pod/Classes/UIView+Convenience.swift"; sourceTree = "<group>"; };
 		94F882D7D27870FA7AD847DA35A01876 /* Pods-BXWebAppViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXWebAppViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9533990C31F505056FD4842FFCA946EE /* Pods-BXWebAppViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BXWebAppViewController_Example-resources.sh"; sourceTree = "<group>"; };
 		9857426AACDA486A294A8B45624FB751 /* Pods-BXWebAppViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BXWebAppViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		99AB52FB7B68D2DE050C335B8AA877FD /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2B3FD85C43F08CA95A1027E90CA60E1 /* PinAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinAutoLayout-prefix.pch"; sourceTree = "<group>"; };
 		A5B55DEFA471408BE6C11628D8C61E5A /* Pods-BXWebAppViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BXWebAppViewController_Tests-resources.sh"; sourceTree = "<group>"; };
 		A8083586B3B69191B4AFE2B47E3FE31A /* Pods-BXWebAppViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BXWebAppViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A99B9DD21DB8339C1E2D9894A42B9D8E /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
-		AB31AF513EF96B27349917C304E70F0F /* PinAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB5FDB280A0E40BB8A4EE56ACDA283EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF12D253B17CFF63FEF58D2DA1D0FAE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16E2DF9F73EA20A25C73B2D33C46B7E /* PinAuto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinAuto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66A6DF80AD7E3E03AE84BA9FCCC8B8A /* BXWebAppViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BXWebAppViewController.xcconfig; sourceTree = "<group>"; };
+		B79369F9F11384AFFABE21CAF36BBDD3 /* PinAuto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinAuto-prefix.pch"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BD16A8EE4FD2DC52E5E3F56A08616BF8 /* UIViewController+PinAutoLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+PinAutoLayout.swift"; path = "Pod/Classes/UIViewController+PinAutoLayout.swift"; sourceTree = "<group>"; };
-		CA15BE060987107544673156C8F50DBD /* Pods_BXWebAppViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXWebAppViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD1EDA86011F6F630D1E1992A20F6EAD /* PinAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinAutoLayout.xcconfig; sourceTree = "<group>"; };
+		C0B5D63C2DCB5D2C6C57D460FBE1E686 /* PinAuto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinAuto.xcconfig; sourceTree = "<group>"; };
+		C72E112E4BFA43A99694850BD4FC5E49 /* BXWebAppViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BXWebAppViewController.swift; sourceTree = "<group>"; };
+		CBBCC1A1AF949688F2F04D574DE41BE1 /* PinAuto.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinAuto.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2DBDB14E37ABE7CE175E3504651A20 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53FC871E8313D31A288D3D1AA116B0F /* Pods_BXWebAppViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXWebAppViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81D69AB9A7432C767AB610D0A589247 /* PinAuto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinAuto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98F89435FF7B596436438DFF4705E49 /* Pods-BXWebAppViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BXWebAppViewController_Example.modulemap"; sourceTree = "<group>"; };
-		DCA2D4FC736FD95DB77466FB587E7E14 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
 		E17FBDD9E54C028B2065DDCE0A262DC2 /* Pods-BXWebAppViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BXWebAppViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E468AF56008589AA1FC186398CF07751 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		E5DB13E175FCA928D5495D772A6FB2B8 /* BXWebAppViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BXWebAppViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E622C22F0770955604EDAAAD3CD680AB /* BXWebAppViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BXWebAppViewController-dummy.m"; sourceTree = "<group>"; };
+		E68844049E8EBD83ABECF311D1F70746 /* Pods_BXWebAppViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXWebAppViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94C26E50342B1712299940BD7CAEBAE /* BXWebAppViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BXWebAppViewController-prefix.pch"; sourceTree = "<group>"; };
-		EC867A727C53EAA2C7BDB96140B014AE /* Pods_BXWebAppViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXWebAppViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC2F7FE64C6FDCAC21CB57BE13FE64A /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
+		F03D7D520DDF1CE3760FFC316A60B307 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
 		F0441FF229D28EFBFDA68E6C41B87253 /* BXWebAppViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BXWebAppViewController.modulemap; sourceTree = "<group>"; };
-		F63FA031307805BF3F7C7E680285821A /* UIView+LinearAutoLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LinearAutoLayout.swift"; path = "Pod/Classes/UIView+LinearAutoLayout.swift"; sourceTree = "<group>"; };
+		F2AE44C8DD1A0291C1B3BCF2F405B816 /* PinAuto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PinAuto.modulemap; sourceTree = "<group>"; };
+		F71E4723350954B39D00A0BA06938857 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		FB26CC80E7F427BC6543DFE0E87C97FC /* Pods-BXWebAppViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BXWebAppViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FBE0C36211793BEB046AB23A0298F0E7 /* BXWebAppViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BXWebAppViewController-umbrella.h"; sourceTree = "<group>"; };
-		FD676ACE4946ECCAA42A21C4F31609DF /* PinAutoLayout.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinAutoLayout.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0CE1202B8DCF1E0A7EEF5E53B161DE /* Pods-BXWebAppViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXWebAppViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FFD0BC02DAEE9352E877B0EF9E18836B /* Pods-BXWebAppViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BXWebAppViewController_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14093846A2C59B10E53179CB3445AC44 /* Frameworks */ = {
+		079512B973F63CF3FB9E63F4005D7314 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				171D3F03F263EE5F2DD225E2AD904C7A /* Foundation.framework in Frameworks */,
+				F419EC54E82394A36F7FFD404B0459F1 /* Foundation.framework in Frameworks */,
+				9A51E51487EFB3B4AE4515356319EFBA /* PinAuto.framework in Frameworks */,
+				648037CCF5281E6406AC6E04D2A4253F /* ReachabilitySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		153DF11E1DBE950A8AC82E34D7AD5E9D /* Frameworks */ = {
+		20029244E2EC5BED6D707BED759F1E2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09EFA27C484BA2C4F2B7817B60051E9C /* Foundation.framework in Frameworks */,
-				8F2090F35E40CF6F8883E8602354A40E /* SystemConfiguration.framework in Frameworks */,
+				12C79A2648D79B8EA5FA19E3D977568C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A013E9663E21428FDD345D7DF4B1B99 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9A714498C1890D8994CCCED2A1E8078 /* Foundation.framework in Frameworks */,
-				6C77B7F6E95F72DC7F12BDC48ADA9757 /* PinAutoLayout.framework in Frameworks */,
-				435CA44C4182FF1FAADF05B14C3913C7 /* ReachabilitySwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6CBD2926E82C9FA8FB7C2D307EB9D9C6 /* Frameworks */ = {
+		5943138BF13265AA9CC82AF62FAE753D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B81CA6F6A939EAF31D9CE9B4FEFA83EA /* Frameworks */ = {
+		7135654C25C14B5DFD87C340AE17EDBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4307EEB055BFF20AA35850DC98B3B686 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD6914541CEDD89A5E1D9BDBDF95D090 /* Frameworks */ = {
+		A751F77DE703C6E792C9AEB89A2B0F6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				852FA5AF85049C3C3DD39E7B3BCBCD83 /* Foundation.framework in Frameworks */,
+				FEDD58C9E9C4473B31B4F584136984BC /* Foundation.framework in Frameworks */,
+				AB06E2F35C2F680C7A8FBB516C3D1626 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F37747E539F2B56565B91E4B816F27A8 /* Frameworks */ = {
+		C575612CA42CCD79BEBB81B36C09FB3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD2C0BDB6D16BDBB393C2C895C852A2E /* Foundation.framework in Frameworks */,
+				B842EF501E16D5924E0BF5AE1420AFEC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01DCD7A23757E6A120455B75C928508F /* Pod */ = {
+		2276BEDB6CE472AE62B9BC9144DBCAAF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C2B92DD1AD44C8E6A8FA6D2658EF0231 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		051F5E14142ECA84FCF96449ACE0E367 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AB5FDB280A0E40BB8A4EE56ACDA283EC /* Info.plist */,
-				86F5D4AAC7B7B3A6CA659733B71972B5 /* PinAutoLayout.modulemap */,
-				CD1EDA86011F6F630D1E1992A20F6EAD /* PinAutoLayout.xcconfig */,
-				8A0A28815644AE70FF38330573357695 /* PinAutoLayout-dummy.m */,
-				A2B3FD85C43F08CA95A1027E90CA60E1 /* PinAutoLayout-prefix.pch */,
-				7A8219E904257AF4F9BAB0312BE6C3C0 /* PinAutoLayout-umbrella.h */,
+				902FD475ADF514438CB0D55FAE6BFBF6 /* Info.plist */,
+				8500FCDDB01EC5C227247AB4B8D8AA5D /* ReachabilitySwift.modulemap */,
+				16BB1DA8873F151C0CB1CC3B0E6331DA /* ReachabilitySwift.xcconfig */,
+				F03D7D520DDF1CE3760FFC316A60B307 /* ReachabilitySwift-dummy.m */,
+				569FB7CA0B1465089AE88F4944646E41 /* ReachabilitySwift-prefix.pch */,
+				47C3BD8AC3AA64804092097724047F46 /* ReachabilitySwift-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/PinAutoLayout";
+			path = "../Target Support Files/ReachabilitySwift";
 			sourceTree = "<group>";
 		};
-		25D00B0888E82DB9BF4FC29B0B6B7C37 /* Pods */ = {
+		36487B33FFB36170D2F322116CA48FA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E1E56D63C4A06BC24BB335025734D36E /* PinAutoLayout */,
-				CA0F1BC9A2C53C34D0718651ED84BC66 /* ReachabilitySwift */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		39C092C8BB251DAF12F8E34BDB998E6A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AB31AF513EF96B27349917C304E70F0F /* PinAutoLayout.framework */,
-				99AB52FB7B68D2DE050C335B8AA877FD /* ReachabilitySwift.framework */,
-				732CADD1B157B74AB5E33FAFEDBD3B5D /* iOS */,
+				D81D69AB9A7432C767AB610D0A589247 /* PinAuto.framework */,
+				CF2DBDB14E37ABE7CE175E3504651A20 /* ReachabilitySwift.framework */,
+				79A70A3EDD2497D768543AA7A28EDB88 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -297,20 +267,6 @@
 			path = "Target Support Files/Pods-BXWebAppViewController_Tests";
 			sourceTree = "<group>";
 		};
-		64A7A7C16F5E4B73DCFFB4371B5F6CC5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AF12D253B17CFF63FEF58D2DA1D0FAE8 /* Info.plist */,
-				8F6409F724F2D88B818602DC7D009752 /* ReachabilitySwift.modulemap */,
-				24AD415377FDF9670513D245D167AE1A /* ReachabilitySwift.xcconfig */,
-				DCA2D4FC736FD95DB77466FB587E7E14 /* ReachabilitySwift-dummy.m */,
-				4F4B08C84676084325D08BC062B56119 /* ReachabilitySwift-prefix.pch */,
-				2F1D9271795172359F33FE33934C7692 /* ReachabilitySwift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ReachabilitySwift";
-			sourceTree = "<group>";
-		};
 		64BDF2EDEE9385448A2C25BD8255AA09 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -325,13 +281,21 @@
 			path = "Example/Pods/Target Support Files/BXWebAppViewController";
 			sourceTree = "<group>";
 		};
-		732CADD1B157B74AB5E33FAFEDBD3B5D /* iOS */ = {
+		79A70A3EDD2497D768543AA7A28EDB88 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				344B9ABAA2AAFE62875EB3D116D404B7 /* Foundation.framework */,
-				E468AF56008589AA1FC186398CF07751 /* SystemConfiguration.framework */,
+				61FE50A2F7C171EBFC06B67CE77D1873 /* Foundation.framework */,
+				3388BC39D3C630AF6ACE0CECD4FD1EC7 /* SystemConfiguration.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7CAF596CDA013C0D3CAABCC15CEB1BCF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8103FCAF1A4652240E2C6E40559531AE /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -339,21 +303,43 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				444BA429E674AB59E70BC9C568B5FE8C /* Development Pods */,
-				39C092C8BB251DAF12F8E34BDB998E6A /* Frameworks */,
-				25D00B0888E82DB9BF4FC29B0B6B7C37 /* Pods */,
-				E823BD397C9AED6A39A9A10FF4341ECF /* Products */,
+				36487B33FFB36170D2F322116CA48FA2 /* Frameworks */,
+				B91BAA50D90833B6F1A0C5A20CDAD0D2 /* Pods */,
+				E54B9E6432729EDFDA0BAF6ECBEC7ABF /* Products */,
 				A6A7EE48ABC8A906C306BE0975B3B8FA /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8103FCAF1A4652240E2C6E40559531AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7B65027E562772D29862EB6620D1B05C /* BXNetworkErrorTipView.swift */,
+				C72E112E4BFA43A99694850BD4FC5E49 /* BXWebAppViewController.swift */,
+				8477CA5B8E394378BD6D9A1493AF7C86 /* BXWKWebViewViewController.swift */,
+				F71E4723350954B39D00A0BA06938857 /* UIViewControllerExtensions.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		84DE1C787DAB7097BCD6E80DA2F664A9 /* BXWebAppViewController */ = {
 			isa = PBXGroup;
 			children = (
-				01DCD7A23757E6A120455B75C928508F /* Pod */,
+				7CAF596CDA013C0D3CAABCC15CEB1BCF /* Pod */,
 				64BDF2EDEE9385448A2C25BD8255AA09 /* Support Files */,
 			);
 			name = BXWebAppViewController;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		929E3A38B85EF56F3578F14370B7B492 /* PinAuto */ = {
+			isa = PBXGroup;
+			children = (
+				93A14428CE8559ADFF4591E15B85F980 /* UIView+Convenience.swift */,
+				171BD8918AC9A2AB0BA784E436856A51 /* UIView+Helper.swift */,
+				8CFFA361FD50347A0B16FF0A8048F1A2 /* UIView+PinAuto.swift */,
+				E280F441A809B89223CA17C7A6761A33 /* Support Files */,
+			);
+			path = PinAuto;
 			sourceTree = "<group>";
 		};
 		A6A7EE48ABC8A906C306BE0975B3B8FA /* Targets Support Files */ = {
@@ -365,46 +351,48 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C2B92DD1AD44C8E6A8FA6D2658EF0231 /* Classes */ = {
+		B91BAA50D90833B6F1A0C5A20CDAD0D2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				836253D9A7B0E658A4BCE6DC8B7D1DEC /* BXWebAppViewController.swift */,
-				3E45FC7E1C0EF58D0000575C /* BXNetworkErrorTipView.swift */,
-				3E99981B1C16D54E00679D78 /* BXWKWebViewViewController.swift */,
+				929E3A38B85EF56F3578F14370B7B492 /* PinAuto */,
+				C212F2695038EF7458F092A10E785A6A /* ReachabilitySwift */,
 			);
-			path = Classes;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		CA0F1BC9A2C53C34D0718651ED84BC66 /* ReachabilitySwift */ = {
+		C212F2695038EF7458F092A10E785A6A /* ReachabilitySwift */ = {
 			isa = PBXGroup;
 			children = (
-				A99B9DD21DB8339C1E2D9894A42B9D8E /* Reachability.swift */,
-				64A7A7C16F5E4B73DCFFB4371B5F6CC5 /* Support Files */,
+				EDC2F7FE64C6FDCAC21CB57BE13FE64A /* Reachability.swift */,
+				2276BEDB6CE472AE62B9BC9144DBCAAF /* Support Files */,
 			);
 			path = ReachabilitySwift;
 			sourceTree = "<group>";
 		};
-		E1E56D63C4A06BC24BB335025734D36E /* PinAutoLayout */ = {
+		E280F441A809B89223CA17C7A6761A33 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F63FA031307805BF3F7C7E680285821A /* UIView+LinearAutoLayout.swift */,
-				281137104CB83F29B5E3956F26AAA00E /* UIView+PinAutoLayout.swift */,
-				BD16A8EE4FD2DC52E5E3F56A08616BF8 /* UIViewController+PinAutoLayout.swift */,
-				051F5E14142ECA84FCF96449ACE0E367 /* Support Files */,
+				8CCA0C275A62261E7BE36D95D47A705C /* Info.plist */,
+				F2AE44C8DD1A0291C1B3BCF2F405B816 /* PinAuto.modulemap */,
+				C0B5D63C2DCB5D2C6C57D460FBE1E686 /* PinAuto.xcconfig */,
+				4261F41EF2DCBC7BE4DD507E3DF58DF7 /* PinAuto-dummy.m */,
+				B79369F9F11384AFFABE21CAF36BBDD3 /* PinAuto-prefix.pch */,
+				1B8AF15A1BA95A32E7FD7BFE5618528F /* PinAuto-umbrella.h */,
+				75BD6ABF33FE04D259172466DF3054EE /* ResourceBundle-PinAuto-Info.plist */,
 			);
-			path = PinAutoLayout;
+			name = "Support Files";
+			path = "../Target Support Files/PinAuto";
 			sourceTree = "<group>";
 		};
-		E823BD397C9AED6A39A9A10FF4341ECF /* Products */ = {
+		E54B9E6432729EDFDA0BAF6ECBEC7ABF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44B134B7CECB9B1623E27A43164D9E37 /* BXWebAppViewController.bundle */,
-				108D75CF564FB2B0C9F736171F61B417 /* BXWebAppViewController.framework */,
-				FD676ACE4946ECCAA42A21C4F31609DF /* PinAutoLayout.bundle */,
-				039C3FAEDCE0AB65BA14386669A81E3C /* PinAutoLayout.framework */,
-				CA15BE060987107544673156C8F50DBD /* Pods_BXWebAppViewController_Example.framework */,
-				EC867A727C53EAA2C7BDB96140B014AE /* Pods_BXWebAppViewController_Tests.framework */,
-				0006EEF732373FCEC6F66EEBD3F262E5 /* ReachabilitySwift.framework */,
+				E5DB13E175FCA928D5495D772A6FB2B8 /* BXWebAppViewController.framework */,
+				CBBCC1A1AF949688F2F04D574DE41BE1 /* PinAuto.bundle */,
+				B16E2DF9F73EA20A25C73B2D33C46B7E /* PinAuto.framework */,
+				D53FC871E8313D31A288D3D1AA116B0F /* Pods_BXWebAppViewController_Example.framework */,
+				E68844049E8EBD83ABECF311D1F70746 /* Pods_BXWebAppViewController_Tests.framework */,
+				1093842B13FB8334E8A1833AB858B900 /* ReachabilitySwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -430,56 +418,96 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3EAF7EB91E7FC95DC49AFE219B09F3FC /* Headers */ = {
+		45A1E30174B346162985F302E5912FAA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53FB50E8CD3F270741C9AA458A5749F /* Pods-BXWebAppViewController_Tests-umbrella.h in Headers */,
+				CC6874792ED17671C5578720B7D15E01 /* PinAuto-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6751AC47EC3BD8206A6DB51F8856CDFB /* Headers */ = {
+		D07199F8BA0AB1950570B883A1924370 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1910338BEB84EE026CA0C8A7D87A461 /* Pods-BXWebAppViewController_Example-umbrella.h in Headers */,
+				F25127539E73F042043F273A651D9069 /* ReachabilitySwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E5FD94BC282A9784BB1F6A8C06D1467 /* Headers */ = {
+		F368CEFC4270DD1DCF286D6A5C153BD9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D238B91E3766EB322C5E15310F950B7 /* PinAutoLayout-umbrella.h in Headers */,
+				6B5CAC472AA7549EAD86E6E8461C8536 /* Pods-BXWebAppViewController_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1793EC06330B4C1C4D97A6098889287 /* Headers */ = {
+		F99BB05122F740C0A92F8220FB7CCE3B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				776F18A59F2E865D646ED959A336D7B6 /* BXWebAppViewController-umbrella.h in Headers */,
+				15FE8AE9AACD1E0868205F1147E86AA3 /* BXWebAppViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE6FCB76A13F5994C5F0F9B347AC7BCA /* Headers */ = {
+		FD71D9194A0F5170FE6E2D8054B946F1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF83318FE3692AC99B15EFCBBA5CA02C /* ReachabilitySwift-umbrella.h in Headers */,
+				A5A1B6A92A116FAD5132D9A87F54433F /* Pods-BXWebAppViewController_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		288907D0BEC8C0374FB7FAF6AFC9C1F3 /* ReachabilitySwift */ = {
+		1F3CCF3D47F0903DEDA57054F432ABD0 /* Pods-BXWebAppViewController_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75100EDA3504000EEA1BAED47B681CB9 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildConfigurationList = D780323AFA7CD613D96816F99F52B6A0 /* Build configuration list for PBXNativeTarget "Pods-BXWebAppViewController_Tests" */;
 			buildPhases = (
-				1BE3EE32EB399BBD1CEA4332A03D1DA8 /* Sources */,
-				153DF11E1DBE950A8AC82E34D7AD5E9D /* Frameworks */,
-				EE6FCB76A13F5994C5F0F9B347AC7BCA /* Headers */,
+				FCBCFE9F8710199577E0B3699DC781AD /* Sources */,
+				20029244E2EC5BED6D707BED759F1E2C /* Frameworks */,
+				FD71D9194A0F5170FE6E2D8054B946F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10DDB034B4C4DBFB998D4D41D4A7290E /* PBXTargetDependency */,
+				382A20E66DEA722219193D5909234A11 /* PBXTargetDependency */,
+				688230505CBCBF6EACE6AB85B7C9795D /* PBXTargetDependency */,
+			);
+			name = "Pods-BXWebAppViewController_Tests";
+			productName = "Pods-BXWebAppViewController_Tests";
+			productReference = E68844049E8EBD83ABECF311D1F70746 /* Pods_BXWebAppViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70E998D22946F7D7C67C0079F1C00DE5 /* Pods-BXWebAppViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14635DBD11C6C19F797C9F5EB5E61BC5 /* Build configuration list for PBXNativeTarget "Pods-BXWebAppViewController_Example" */;
+			buildPhases = (
+				89F061DD3F1F79D7994F6B0F5C89710B /* Sources */,
+				7135654C25C14B5DFD87C340AE17EDBB /* Frameworks */,
+				F368CEFC4270DD1DCF286D6A5C153BD9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C9F800E44C8E492D690C681DDC4A52 /* PBXTargetDependency */,
+				C5F1D111BC71CDEF6FCC116320C438DB /* PBXTargetDependency */,
+				FCC241B3876FA36EBB51A7A21C01E78B /* PBXTargetDependency */,
+			);
+			name = "Pods-BXWebAppViewController_Example";
+			productName = "Pods-BXWebAppViewController_Example";
+			productReference = D53FC871E8313D31A288D3D1AA116B0F /* Pods_BXWebAppViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9B1B57F7A07C638C859BEDFEDC829B4 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56A2F934F22016F27E3B89ED9359F043 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				553468A2E03BC7F756BB671FB0E4C3C1 /* Sources */,
+				A751F77DE703C6E792C9AEB89A2B0F6E /* Frameworks */,
+				D07199F8BA0AB1950570B883A1924370 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -487,121 +515,62 @@
 			);
 			name = ReachabilitySwift;
 			productName = ReachabilitySwift;
-			productReference = 0006EEF732373FCEC6F66EEBD3F262E5 /* ReachabilitySwift.framework */;
+			productReference = 1093842B13FB8334E8A1833AB858B900 /* ReachabilitySwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4DC5E3B60C7B134E635CBF3B75A38B96 /* Pods-BXWebAppViewController_Tests */ = {
+		C21D6DE4FCB1A5728E180FF7942DF6BC /* PinAuto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28B43B5FED4B7E63ED3D965C66F16FCB /* Build configuration list for PBXNativeTarget "Pods-BXWebAppViewController_Tests" */;
+			buildConfigurationList = 9DFEC9C289A54D29DDDACE5632BEE809 /* Build configuration list for PBXNativeTarget "PinAuto" */;
 			buildPhases = (
-				8A4E64394EA0EA2EFDC2FC8F3A22AAE0 /* Sources */,
-				14093846A2C59B10E53179CB3445AC44 /* Frameworks */,
-				3EAF7EB91E7FC95DC49AFE219B09F3FC /* Headers */,
+				257BBF8713AE6C5B88B87D39D1E6AE26 /* Sources */,
+				C575612CA42CCD79BEBB81B36C09FB3B /* Frameworks */,
+				DD02EBD33BC1F0AE2B1399841DBA2D34 /* Resources */,
+				45A1E30174B346162985F302E5912FAA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D94D544A08A3351B12C98CF914D11205 /* PBXTargetDependency */,
-				FC61428620ED7B442D8B603D5DA7D8C3 /* PBXTargetDependency */,
-				E9C7B0ABBE8D3E75B087485156C4E29D /* PBXTargetDependency */,
+				9BADEA6BABF38766B0E7AA9FFF24F0DD /* PBXTargetDependency */,
 			);
-			name = "Pods-BXWebAppViewController_Tests";
-			productName = "Pods-BXWebAppViewController_Tests";
-			productReference = EC867A727C53EAA2C7BDB96140B014AE /* Pods_BXWebAppViewController_Tests.framework */;
+			name = PinAuto;
+			productName = PinAuto;
+			productReference = B16E2DF9F73EA20A25C73B2D33C46B7E /* PinAuto.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6D5885343EDCC2E62038C1C7A6AE31A2 /* BXWebAppViewController-BXWebAppViewController */ = {
+		E484317D1E8780B8DD3815AD34F3A2A0 /* BXWebAppViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 029BA84CED4D6E37D55E98F353A85184 /* Build configuration list for PBXNativeTarget "BXWebAppViewController-BXWebAppViewController" */;
+			buildConfigurationList = 899CB064CB4C499A851833B4746747CE /* Build configuration list for PBXNativeTarget "BXWebAppViewController" */;
 			buildPhases = (
-				B20748FBA92DC3C397D28C355D600BF5 /* Sources */,
-				6CBD2926E82C9FA8FB7C2D307EB9D9C6 /* Frameworks */,
-				C83B8DBFB8AF55A0241C2FCAE53FE348 /* Resources */,
+				14ED11B20D9ACE847AB9E9E26EE70A4D /* Sources */,
+				079512B973F63CF3FB9E63F4005D7314 /* Frameworks */,
+				F99BB05122F740C0A92F8220FB7CCE3B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "BXWebAppViewController-BXWebAppViewController";
-			productName = "BXWebAppViewController-BXWebAppViewController";
-			productReference = 44B134B7CECB9B1623E27A43164D9E37 /* BXWebAppViewController.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		A4F119102BACBFB91C9AB9286DC96098 /* PinAutoLayout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4621C3F2AD9C9A0FC814809A6341921D /* Build configuration list for PBXNativeTarget "PinAutoLayout" */;
-			buildPhases = (
-				4039FAA11212FF5C51096FE9F791B981 /* Sources */,
-				F37747E539F2B56565B91E4B816F27A8 /* Frameworks */,
-				8678F1FC0B8883E31EC0BF2501CC5801 /* Resources */,
-				9E5FD94BC282A9784BB1F6A8C06D1467 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E52481831B4DF2B9A9D0132B1252C298 /* PBXTargetDependency */,
-			);
-			name = PinAutoLayout;
-			productName = PinAutoLayout;
-			productReference = 039C3FAEDCE0AB65BA14386669A81E3C /* PinAutoLayout.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D889D248F3FA47E0C19956EF1C4C464B /* Pods-BXWebAppViewController_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B7311F6ECAD9C4C95DE75828400EA55B /* Build configuration list for PBXNativeTarget "Pods-BXWebAppViewController_Example" */;
-			buildPhases = (
-				7265A1FA2C345B82EDB5551E89BF1663 /* Sources */,
-				BD6914541CEDD89A5E1D9BDBDF95D090 /* Frameworks */,
-				6751AC47EC3BD8206A6DB51F8856CDFB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4C7A3B0DA04F44FC50C05E5E22C4A3BA /* PBXTargetDependency */,
-				0FEEDFF92435635FCCB4074C2FDCD7D6 /* PBXTargetDependency */,
-				6986BBB10E511FB613B01A7A21625713 /* PBXTargetDependency */,
-			);
-			name = "Pods-BXWebAppViewController_Example";
-			productName = "Pods-BXWebAppViewController_Example";
-			productReference = CA15BE060987107544673156C8F50DBD /* Pods_BXWebAppViewController_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E400A2D2ECAFF354A31F44BD6A4F6C4D /* BXWebAppViewController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 35474D235F28CFC98AAC42DB441FFBEA /* Build configuration list for PBXNativeTarget "BXWebAppViewController" */;
-			buildPhases = (
-				457D48DEC93330E3A6D609D8552700E5 /* Sources */,
-				6A013E9663E21428FDD345D7DF4B1B99 /* Frameworks */,
-				CCA33C1A4CFA7E00C6A431BFB9D917F6 /* Resources */,
-				D1793EC06330B4C1C4D97A6098889287 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A5F16C2994658319D95BC3EB232EF37D /* PBXTargetDependency */,
-				3828BA7DC9228CE148ABBDFB97614EF4 /* PBXTargetDependency */,
-				01AA296E51D17DABBA7C02D0890EE5BD /* PBXTargetDependency */,
+				9EF6D6A92FB81E600DB51FD461D99B4E /* PBXTargetDependency */,
+				405A79CD81B841141747A1329CEF45EB /* PBXTargetDependency */,
 			);
 			name = BXWebAppViewController;
 			productName = BXWebAppViewController;
-			productReference = 108D75CF564FB2B0C9F736171F61B417 /* BXWebAppViewController.framework */;
+			productReference = E5DB13E175FCA928D5495D772A6FB2B8 /* BXWebAppViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E790F9C328F866974BEF1B39ED26DC76 /* PinAutoLayout-PinAutoLayout */ = {
+		E997BA224CED050C1913E07FFC8C9CD4 /* PinAuto-PinAuto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F8D93060546BA5BC88ECC066824B06F /* Build configuration list for PBXNativeTarget "PinAutoLayout-PinAutoLayout" */;
+			buildConfigurationList = C983DC04F88B1C28D32B85CDA4BF8A12 /* Build configuration list for PBXNativeTarget "PinAuto-PinAuto" */;
 			buildPhases = (
-				99D04A301706C6DD934004D15CCAC2A1 /* Sources */,
-				B81CA6F6A939EAF31D9CE9B4FEFA83EA /* Frameworks */,
-				80A0DAC0C362115EA596DDF6B84EBD56 /* Resources */,
+				9BD6721D94B2224128A65CA59A574190 /* Sources */,
+				5943138BF13265AA9CC82AF62FAE753D /* Frameworks */,
+				138C5FA48D9918103D360BFF7E9F4EE3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "PinAutoLayout-PinAutoLayout";
-			productName = "PinAutoLayout-PinAutoLayout";
-			productReference = FD676ACE4946ECCAA42A21C4F31609DF /* PinAutoLayout.bundle */;
+			name = "PinAuto-PinAuto";
+			productName = "PinAuto-PinAuto";
+			productReference = CBBCC1A1AF949688F2F04D574DE41BE1 /* PinAuto.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -610,7 +579,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -621,183 +590,213 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E823BD397C9AED6A39A9A10FF4341ECF /* Products */;
+			productRefGroup = E54B9E6432729EDFDA0BAF6ECBEC7ABF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E400A2D2ECAFF354A31F44BD6A4F6C4D /* BXWebAppViewController */,
-				6D5885343EDCC2E62038C1C7A6AE31A2 /* BXWebAppViewController-BXWebAppViewController */,
-				A4F119102BACBFB91C9AB9286DC96098 /* PinAutoLayout */,
-				E790F9C328F866974BEF1B39ED26DC76 /* PinAutoLayout-PinAutoLayout */,
-				D889D248F3FA47E0C19956EF1C4C464B /* Pods-BXWebAppViewController_Example */,
-				4DC5E3B60C7B134E635CBF3B75A38B96 /* Pods-BXWebAppViewController_Tests */,
-				288907D0BEC8C0374FB7FAF6AFC9C1F3 /* ReachabilitySwift */,
+				E484317D1E8780B8DD3815AD34F3A2A0 /* BXWebAppViewController */,
+				C21D6DE4FCB1A5728E180FF7942DF6BC /* PinAuto */,
+				E997BA224CED050C1913E07FFC8C9CD4 /* PinAuto-PinAuto */,
+				70E998D22946F7D7C67C0079F1C00DE5 /* Pods-BXWebAppViewController_Example */,
+				1F3CCF3D47F0903DEDA57054F432ABD0 /* Pods-BXWebAppViewController_Tests */,
+				A9B1B57F7A07C638C859BEDFEDC829B4 /* ReachabilitySwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		80A0DAC0C362115EA596DDF6B84EBD56 /* Resources */ = {
+		138C5FA48D9918103D360BFF7E9F4EE3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8678F1FC0B8883E31EC0BF2501CC5801 /* Resources */ = {
+		DD02EBD33BC1F0AE2B1399841DBA2D34 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75742C87D073B8D2DDD73C733FEBDC85 /* PinAutoLayout.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C83B8DBFB8AF55A0241C2FCAE53FE348 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCA33C1A4CFA7E00C6A431BFB9D917F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D624A43CAE44F38BE41A057D9509F341 /* BXWebAppViewController.bundle in Resources */,
+				22D47C6CE78A5C79BE9485E080205AEE /* PinAuto.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1BE3EE32EB399BBD1CEA4332A03D1DA8 /* Sources */ = {
+		14ED11B20D9ACE847AB9E9E26EE70A4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D80387B869BD5387C0A8D125A550A68 /* Reachability.swift in Sources */,
-				8F92C09789F86471D64F549C961E5D53 /* ReachabilitySwift-dummy.m in Sources */,
+				73703254EEDDD698CCE3E35A5A661395 /* BXNetworkErrorTipView.swift in Sources */,
+				B07BE12FAAF76E3E0EE4C79FF933C9F2 /* BXWebAppViewController-dummy.m in Sources */,
+				3E48D580A562B1007C86D88173269A75 /* BXWebAppViewController.swift in Sources */,
+				0C56E635F8BBC21711BA9C0AEA381D88 /* BXWKWebViewViewController.swift in Sources */,
+				0FA1EF3A149371862D2F7AB3B02B527C /* UIViewControllerExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4039FAA11212FF5C51096FE9F791B981 /* Sources */ = {
+		257BBF8713AE6C5B88B87D39D1E6AE26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC2A12212D1C2B08D46DB25F855B96F6 /* PinAutoLayout-dummy.m in Sources */,
-				F0B90802122D345FFBD7E36117C748FC /* UIView+LinearAutoLayout.swift in Sources */,
-				E37281D55792803EF66CEE6EC6E50E24 /* UIView+PinAutoLayout.swift in Sources */,
-				84FBCB4ACB46E75ED47885EB10B0E183 /* UIViewController+PinAutoLayout.swift in Sources */,
+				4FEFF494EC5CD48FE5627668F9EA0915 /* PinAuto-dummy.m in Sources */,
+				8AD85B38520CBE39E726A457686BB82B /* UIView+Convenience.swift in Sources */,
+				0F4B810AB64EFB44A67267D61E349D95 /* UIView+Helper.swift in Sources */,
+				B3480E0DAE67537171E3947B3C216F44 /* UIView+PinAuto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		457D48DEC93330E3A6D609D8552700E5 /* Sources */ = {
+		553468A2E03BC7F756BB671FB0E4C3C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E778C21F4431F9B38C16C81C7309E3C4 /* BXWebAppViewController-dummy.m in Sources */,
-				AF481F2D88BEBD66C95974DA74A75B3C /* BXWebAppViewController.swift in Sources */,
-				3E99981C1C16D54E00679D78 /* BXWKWebViewViewController.swift in Sources */,
-				3E45FC7F1C0EF58D0000575C /* BXNetworkErrorTipView.swift in Sources */,
+				638EA6B6AB2B5279C5065A75777D01BD /* Reachability.swift in Sources */,
+				04A5AAF25163BBB50EFA06019573DFD2 /* ReachabilitySwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7265A1FA2C345B82EDB5551E89BF1663 /* Sources */ = {
+		89F061DD3F1F79D7994F6B0F5C89710B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45B34F6863A664DBBF8789F2546B048C /* Pods-BXWebAppViewController_Example-dummy.m in Sources */,
+				66D8F81A322FE8C138AB57D8CE198060 /* Pods-BXWebAppViewController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A4E64394EA0EA2EFDC2FC8F3A22AAE0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				896F64853BBA6BFCDA14A470485112DB /* Pods-BXWebAppViewController_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99D04A301706C6DD934004D15CCAC2A1 /* Sources */ = {
+		9BD6721D94B2224128A65CA59A574190 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B20748FBA92DC3C397D28C355D600BF5 /* Sources */ = {
+		FCBCFE9F8710199577E0B3699DC781AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3386F3C2BC5F6AC5D10DE6EEB3DFAAF /* Pods-BXWebAppViewController_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01AA296E51D17DABBA7C02D0890EE5BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ReachabilitySwift;
-			target = 288907D0BEC8C0374FB7FAF6AFC9C1F3 /* ReachabilitySwift */;
-			targetProxy = 3D4564C7BDA7F10052B9D256C4AEB193 /* PBXContainerItemProxy */;
-		};
-		0FEEDFF92435635FCCB4074C2FDCD7D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PinAutoLayout;
-			target = A4F119102BACBFB91C9AB9286DC96098 /* PinAutoLayout */;
-			targetProxy = 262F1CE64D65B4E4D206701130B2DD9A /* PBXContainerItemProxy */;
-		};
-		3828BA7DC9228CE148ABBDFB97614EF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PinAutoLayout;
-			target = A4F119102BACBFB91C9AB9286DC96098 /* PinAutoLayout */;
-			targetProxy = 2C458671ACB11C52F8DBA55C08D4B490 /* PBXContainerItemProxy */;
-		};
-		4C7A3B0DA04F44FC50C05E5E22C4A3BA /* PBXTargetDependency */ = {
+		10DDB034B4C4DBFB998D4D41D4A7290E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BXWebAppViewController;
-			target = E400A2D2ECAFF354A31F44BD6A4F6C4D /* BXWebAppViewController */;
-			targetProxy = C823023A9C6436AD10BD527EC4190A02 /* PBXContainerItemProxy */;
+			target = E484317D1E8780B8DD3815AD34F3A2A0 /* BXWebAppViewController */;
+			targetProxy = F42D5E93A66D806F706537CC4794569B /* PBXContainerItemProxy */;
 		};
-		6986BBB10E511FB613B01A7A21625713 /* PBXTargetDependency */ = {
+		382A20E66DEA722219193D5909234A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinAuto;
+			target = C21D6DE4FCB1A5728E180FF7942DF6BC /* PinAuto */;
+			targetProxy = B0DE01B39E5CFEEE8DC921E4E85AB38C /* PBXContainerItemProxy */;
+		};
+		405A79CD81B841141747A1329CEF45EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ReachabilitySwift;
-			target = 288907D0BEC8C0374FB7FAF6AFC9C1F3 /* ReachabilitySwift */;
-			targetProxy = 766FBB28BC4ECE3FF3ADB5278B884493 /* PBXContainerItemProxy */;
+			target = A9B1B57F7A07C638C859BEDFEDC829B4 /* ReachabilitySwift */;
+			targetProxy = BD7614200610C9490B4E06CE9A02D77D /* PBXContainerItemProxy */;
 		};
-		A5F16C2994658319D95BC3EB232EF37D /* PBXTargetDependency */ = {
+		688230505CBCBF6EACE6AB85B7C9795D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "BXWebAppViewController-BXWebAppViewController";
-			target = 6D5885343EDCC2E62038C1C7A6AE31A2 /* BXWebAppViewController-BXWebAppViewController */;
-			targetProxy = 523E48F8C16659E13532AC7DFB53DE12 /* PBXContainerItemProxy */;
+			name = ReachabilitySwift;
+			target = A9B1B57F7A07C638C859BEDFEDC829B4 /* ReachabilitySwift */;
+			targetProxy = 3E9CC5BE3058F3A124882F8784D6F9B4 /* PBXContainerItemProxy */;
 		};
-		D94D544A08A3351B12C98CF914D11205 /* PBXTargetDependency */ = {
+		82C9F800E44C8E492D690C681DDC4A52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BXWebAppViewController;
-			target = E400A2D2ECAFF354A31F44BD6A4F6C4D /* BXWebAppViewController */;
-			targetProxy = D4603B7E99E83312E9451906A6E1BF04 /* PBXContainerItemProxy */;
+			target = E484317D1E8780B8DD3815AD34F3A2A0 /* BXWebAppViewController */;
+			targetProxy = 6E4DE82C7FD215E4E516A9E4535EDC4E /* PBXContainerItemProxy */;
 		};
-		E52481831B4DF2B9A9D0132B1252C298 /* PBXTargetDependency */ = {
+		9BADEA6BABF38766B0E7AA9FFF24F0DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "PinAutoLayout-PinAutoLayout";
-			target = E790F9C328F866974BEF1B39ED26DC76 /* PinAutoLayout-PinAutoLayout */;
-			targetProxy = BAD9D3F230A5B11F3105C6BAC28CD8D9 /* PBXContainerItemProxy */;
+			name = "PinAuto-PinAuto";
+			target = E997BA224CED050C1913E07FFC8C9CD4 /* PinAuto-PinAuto */;
+			targetProxy = 786A1F3DFD223784BD1BDC34D805F48F /* PBXContainerItemProxy */;
 		};
-		E9C7B0ABBE8D3E75B087485156C4E29D /* PBXTargetDependency */ = {
+		9EF6D6A92FB81E600DB51FD461D99B4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinAuto;
+			target = C21D6DE4FCB1A5728E180FF7942DF6BC /* PinAuto */;
+			targetProxy = ACA23398263EC34707077886CD8AB036 /* PBXContainerItemProxy */;
+		};
+		C5F1D111BC71CDEF6FCC116320C438DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinAuto;
+			target = C21D6DE4FCB1A5728E180FF7942DF6BC /* PinAuto */;
+			targetProxy = F2EBDCE862A09E647B670DC3E0059B69 /* PBXContainerItemProxy */;
+		};
+		FCC241B3876FA36EBB51A7A21C01E78B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ReachabilitySwift;
-			target = 288907D0BEC8C0374FB7FAF6AFC9C1F3 /* ReachabilitySwift */;
-			targetProxy = EFE74E0BF33B921B33DCEC747E3AADE6 /* PBXContainerItemProxy */;
-		};
-		FC61428620ED7B442D8B603D5DA7D8C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PinAutoLayout;
-			target = A4F119102BACBFB91C9AB9286DC96098 /* PinAutoLayout */;
-			targetProxy = 8D4BA47DF7FAFE94800FCDE0134E1C62 /* PBXContainerItemProxy */;
+			target = A9B1B57F7A07C638C859BEDFEDC829B4 /* ReachabilitySwift */;
+			targetProxy = 5B5F91B365F6CE92C96D2F60A96A3BD5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+		02A9B732ECA0DB4AABD23F8E53F42F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66A6DF80AD7E3E03AE84BA9FCCC8B8A /* BXWebAppViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BXWebAppViewController/BXWebAppViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BXWebAppViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BXWebAppViewController/BXWebAppViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BXWebAppViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		283AB2C89DD0D8B7B8D77DA06D6F13A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B5D63C2DCB5D2C6C57D460FBE1E686 /* PinAuto.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PinAuto/PinAuto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinAuto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PinAuto/PinAuto.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PinAuto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		372FF5048FF42C3A7A18B70A30D785C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -817,7 +816,10 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -831,74 +833,7 @@
 			};
 			name = Release;
 		};
-		25FF5F390C6548FAE78C639551DB2E58 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD1EDA86011F6F630D1E1992A20F6EAD /* PinAutoLayout.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PinAutoLayout/PinAutoLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PinAutoLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PinAutoLayout/PinAutoLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PinAutoLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4573DF24A1F3A5EA670AC2FC0FC73E05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24AD415377FDF9670513D245D167AE1A /* ReachabilitySwift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ReachabilitySwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		498471E573F1D815E347545711D91789 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD1EDA86011F6F630D1E1992A20F6EAD /* PinAutoLayout.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PinAutoLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+		70F0378D63DE3D2DCC739550669BD46A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -916,10 +851,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -937,28 +874,57 @@
 			};
 			name = Debug;
 		};
-		715B73AF6A24016C8A74A7E9323101A7 /* Release */ = {
+		99C766B6A755E6BC740A09F1A678AFFC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE0CE1202B8DCF1E0A7EEF5E53B161DE /* Pods-BXWebAppViewController_Tests.release.xcconfig */;
+			baseConfigurationReference = C0B5D63C2DCB5D2C6C57D460FBE1E686 /* PinAuto.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BXWebAppViewController_Tests/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PinAuto/PinAuto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinAuto/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BXWebAppViewController_Tests/Pods-BXWebAppViewController_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/PinAuto/PinAuto.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PinAuto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5BAF337BFD9236F8FBDBD15F9D4AB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16BB1DA8873F151C0CB1CC3B0E6331DA /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_BXWebAppViewController_Tests;
+				PRODUCT_NAME = ReachabilitySwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -967,29 +933,52 @@
 			};
 			name = Release;
 		};
-		8DACDD03BABADE885C2C3150CB879B3C /* Debug */ = {
+		ADA931048978E7BA802A2DABF15941ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B66A6DF80AD7E3E03AE84BA9FCCC8B8A /* BXWebAppViewController.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = BXWebAppViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		9BAD86276309987C8842D999ED36904C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94F882D7D27870FA7AD847DA35A01876 /* Pods-BXWebAppViewController_Example.debug.xcconfig */;
+			baseConfigurationReference = 86248DA26763907BAE74320B671320E3 /* Pods-BXWebAppViewController_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BXWebAppViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BXWebAppViewController_Example/Pods-BXWebAppViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BXWebAppViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF6B24A51A1BCF614EB089E968DFDA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F882D7D27870FA7AD847DA35A01876 /* Pods-BXWebAppViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-BXWebAppViewController_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -1000,6 +989,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_BXWebAppViewController_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1010,17 +1000,19 @@
 			};
 			name = Debug;
 		};
-		B529A2289008E373D1ACC0B375747E1B /* Debug */ = {
+		C779AE7EA3829ACE7E51EF138B8B1934 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 313C910F052E00BA5BB845B2CC7D17D7 /* Pods-BXWebAppViewController_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-BXWebAppViewController_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -1031,6 +1023,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_BXWebAppViewController_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1041,25 +1034,63 @@
 			};
 			name = Debug;
 		};
-		B7A0E8A3C8016C7524A58AD547766315 /* Release */ = {
+		CCBD6F7E20F907DD76CF0A6A067BA94D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B66A6DF80AD7E3E03AE84BA9FCCC8B8A /* BXWebAppViewController.xcconfig */;
+			baseConfigurationReference = C0B5D63C2DCB5D2C6C57D460FBE1E686 /* PinAuto.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PinAuto/ResourceBundle-PinAuto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PinAuto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D8E87E53451E28B58A5B562A549ECCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B5D63C2DCB5D2C6C57D460FBE1E686 /* PinAuto.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PinAuto/ResourceBundle-PinAuto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PinAuto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DBB9B42A7CFF10C77B4B7B3DBE590B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE0CE1202B8DCF1E0A7EEF5E53B161DE /* Pods-BXWebAppViewController_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BXWebAppViewController/BXWebAppViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BXWebAppViewController/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BXWebAppViewController_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BXWebAppViewController/BXWebAppViewController.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BXWebAppViewController_Tests/Pods-BXWebAppViewController_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = BXWebAppViewController;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BXWebAppViewController_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1068,21 +1099,23 @@
 			};
 			name = Release;
 		};
-		B85299C9CCE50E43F2F62F15D74BFDD7 /* Debug */ = {
+		EAB2A701603C6A84A5FAB738BD9F4CF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24AD415377FDF9670513D245D167AE1A /* ReachabilitySwift.xcconfig */;
+			baseConfigurationReference = 16BB1DA8873F151C0CB1CC3B0E6331DA /* ReachabilitySwift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1096,102 +1129,23 @@
 			};
 			name = Debug;
 		};
-		BD08AF84ADADA77EF801EC3161B7E20D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD1EDA86011F6F630D1E1992A20F6EAD /* PinAutoLayout.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PinAutoLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C7EB87C0328F694998ED60D332E2FEFC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD1EDA86011F6F630D1E1992A20F6EAD /* PinAutoLayout.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PinAutoLayout/PinAutoLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PinAutoLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PinAutoLayout/PinAutoLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PinAutoLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D5272C0B7721C1053DE51F3E85A8501A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B66A6DF80AD7E3E03AE84BA9FCCC8B8A /* BXWebAppViewController.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = BXWebAppViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		DC954543C2C11D1ED7A3BCCDA5CC5B8E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86248DA26763907BAE74320B671320E3 /* Pods-BXWebAppViewController_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BXWebAppViewController_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BXWebAppViewController_Example/Pods-BXWebAppViewController_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_BXWebAppViewController_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FA86B03009FB691A57697FD1420C9D22 /* Debug */ = {
+		F6F73A48D58CBC1D646AD89D4A479972 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B66A6DF80AD7E3E03AE84BA9FCCC8B8A /* BXWebAppViewController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/BXWebAppViewController/BXWebAppViewController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BXWebAppViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BXWebAppViewController/BXWebAppViewController.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1208,20 +1162,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		029BA84CED4D6E37D55E98F353A85184 /* Build configuration list for PBXNativeTarget "BXWebAppViewController-BXWebAppViewController" */ = {
+		14635DBD11C6C19F797C9F5EB5E61BC5 /* Build configuration list for PBXNativeTarget "Pods-BXWebAppViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DACDD03BABADE885C2C3150CB879B3C /* Debug */,
-				D5272C0B7721C1053DE51F3E85A8501A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		28B43B5FED4B7E63ED3D965C66F16FCB /* Build configuration list for PBXNativeTarget "Pods-BXWebAppViewController_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B529A2289008E373D1ACC0B375747E1B /* Debug */,
-				715B73AF6A24016C8A74A7E9323101A7 /* Release */,
+				BF6B24A51A1BCF614EB089E968DFDA1F /* Debug */,
+				ADA931048978E7BA802A2DABF15941ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1229,53 +1174,53 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
-				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+				70F0378D63DE3D2DCC739550669BD46A /* Debug */,
+				372FF5048FF42C3A7A18B70A30D785C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35474D235F28CFC98AAC42DB441FFBEA /* Build configuration list for PBXNativeTarget "BXWebAppViewController" */ = {
+		56A2F934F22016F27E3B89ED9359F043 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA86B03009FB691A57697FD1420C9D22 /* Debug */,
-				B7A0E8A3C8016C7524A58AD547766315 /* Release */,
+				EAB2A701603C6A84A5FAB738BD9F4CF9 /* Debug */,
+				A5BAF337BFD9236F8FBDBD15F9D4AB0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4621C3F2AD9C9A0FC814809A6341921D /* Build configuration list for PBXNativeTarget "PinAutoLayout" */ = {
+		899CB064CB4C499A851833B4746747CE /* Build configuration list for PBXNativeTarget "BXWebAppViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25FF5F390C6548FAE78C639551DB2E58 /* Debug */,
-				C7EB87C0328F694998ED60D332E2FEFC /* Release */,
+				F6F73A48D58CBC1D646AD89D4A479972 /* Debug */,
+				02A9B732ECA0DB4AABD23F8E53F42F60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75100EDA3504000EEA1BAED47B681CB9 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+		9DFEC9C289A54D29DDDACE5632BEE809 /* Build configuration list for PBXNativeTarget "PinAuto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B85299C9CCE50E43F2F62F15D74BFDD7 /* Debug */,
-				4573DF24A1F3A5EA670AC2FC0FC73E05 /* Release */,
+				99C766B6A755E6BC740A09F1A678AFFC /* Debug */,
+				283AB2C89DD0D8B7B8D77DA06D6F13A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F8D93060546BA5BC88ECC066824B06F /* Build configuration list for PBXNativeTarget "PinAutoLayout-PinAutoLayout" */ = {
+		C983DC04F88B1C28D32B85CDA4BF8A12 /* Build configuration list for PBXNativeTarget "PinAuto-PinAuto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD08AF84ADADA77EF801EC3161B7E20D /* Debug */,
-				498471E573F1D815E347545711D91789 /* Release */,
+				CCBD6F7E20F907DD76CF0A6A067BA94D /* Debug */,
+				D8E87E53451E28B58A5B562A549ECCC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7311F6ECAD9C4C95DE75828400EA55B /* Build configuration list for PBXNativeTarget "Pods-BXWebAppViewController_Example" */ = {
+		D780323AFA7CD613D96816F99F52B6A0 /* Build configuration list for PBXNativeTarget "Pods-BXWebAppViewController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BAD86276309987C8842D999ED36904C /* Debug */,
-				DC954543C2C11D1ED7A3BCCDA5CC5B8E /* Release */,
+				C779AE7EA3829ACE7E51EF138B8B1934 /* Debug */,
+				DBB9B42A7CFF10C77B4B7B3DBE590B00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
